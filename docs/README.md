@@ -18,6 +18,10 @@ brew cleanup
 ### SSH
 
 ```bash
+# create key
+ssh-keygen -t rsa -b 4096 -C "andreas.sahle@gmail.com"
+# copy (default) public key to clipboard
+pbcopy < ~/.ssh/id_rsa.pub
 # add key to agent
 ssh-add ~/.ssh/id_rsa
 # list keys in agent
@@ -57,3 +61,65 @@ Feb 8 '19
 
 Dec 25 '18
 [dev.to/nickjj/my-favorite-vscode-extensions-and-settings-k5l](https://dev.to/nickjj/my-favorite-vscode-extensions-and-settings-k5l)
+
+## Code Style
+
+### Prettier
+
+```js
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": true
+  }
+```
+
+https://prettier.io/docs/en/options.html
+
+https://prettier.io/docs/en/configuration.html
+
+### Editorconfig
+
+.editorconfig
+
+```
+# https://editorconfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Use 4 spaces for the Python files
+[*.py]
+indent_size = 4
+max_line_length = 80
+
+# The JSON files contain newlines inconsistently
+[*.json]
+insert_final_newline = ignore
+
+# Minified JavaScript files shouldn't be changed
+[**.min.js]
+indent_style = ignore
+insert_final_newline = ignore
+
+# Makefiles always use tabs for indentation
+[Makefile]
+indent_style = tab
+
+# Batch files use tabs for indentation
+[*.bat]
+indent_style = tab
+
+[*.md]
+trim_trailing_whitespace = false
+```
+
+https://editorconfig.org/
