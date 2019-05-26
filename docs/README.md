@@ -84,7 +84,7 @@ https://prettier.io/docs/en/configuration.html
 
 .editorconfig
 
-```
+```bash
 # https://editorconfig.org
 root = true
 
@@ -123,3 +123,17 @@ trim_trailing_whitespace = false
 ```
 
 https://editorconfig.org/
+
+## Handy CLI commands
+
+### CSV info
+
+```bash
+
+# number of lines and columns in a CSV file with "," delimiter
+awk -F, 'END {printf "Number of Rows : %s\nNumber of Columns = %s\n", NR, NF}' Test.csv
+
+# faster just number of lines:
+cat Test.csv | wc -l
+
+```
