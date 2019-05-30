@@ -28,6 +28,11 @@ ssh-add ~/.ssh/id_rsa
 ssh-add -l
 ```
 
+```bash
+# add key to remote server
+ssh-copy-id remote_username@server_ip_address
+```
+
 ## Docker
 
 ```bash
