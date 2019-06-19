@@ -1,0 +1,28 @@
+{
+  "name": "knowhow",
+  "version": "0.1.0",
+  "main": "index.js",
+  "private": true,
+  "author": "Andreas Sahle <andreas.sahle@gmail.com>",
+  "workspaces": [
+    "./react",
+    "./typescript",
+    "./js"
+  ],
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "printWidth": 80,
+    "tabWidth": 2,
+    "semi": true
+  },
+  "dependencies": {
+    "docsify": "^4.9.4",
+    "docsify-cli": "^4.3.0",
+    "live-server": "^1.2.1"
+  }
+}
