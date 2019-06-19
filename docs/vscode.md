@@ -1,5 +1,7 @@
 # VSCode
 
+last edited: 19/06/2019 17:06
+
 **Developers about their setups:**
 
 May 20 '19

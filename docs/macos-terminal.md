@@ -1,5 +1,7 @@
 # MacOS
 
+last edited: 19/06/2019 17:06
+
 ## Clear package manager caches
 
 ```bash

@@ -1,5 +1,7 @@
 # common
 
+last edited: 19/06/2019 17:06
+
 Files and infos that should be common to all project flavours.
 
 ## editorconfig

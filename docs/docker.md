@@ -1,5 +1,7 @@
 # Docker
 
+last edited: 19/06/2019 17:06
+
 ```bash
 # kill all running containers with
 docker kill $(docker ps -q)
