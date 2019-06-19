@@ -1,6 +1,6 @@
 # MacOS
 
-## Clear caches
+## Clear package manager caches
 
 ```bash
 yarn cache clean
