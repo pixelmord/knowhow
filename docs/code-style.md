@@ -1,6 +1,8 @@
 # Code Style
 
-last edited: 19/06/2019 17:06
+last edited: 07/23/2019 12:07
+
+> Only enforce code style that can be automated!
 
 ## Prettier
 
