@@ -1,6 +1,6 @@
 # Typescript
 
-last edited: 19/06/2019 17:06
+// Last modified: 2019/07/23 13:31:04
 
 Make sure to also check out [JS docs](js.md) since typescript is only a superset of JavaScript many best practices also apply.
 

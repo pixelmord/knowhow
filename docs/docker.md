@@ -1,6 +1,6 @@
 # Docker
 
-last edited: 19/06/2019 17:06
+// Last modified: 2019/07/23 13:30:29
 
 ```bash
 # kill all running containers with
