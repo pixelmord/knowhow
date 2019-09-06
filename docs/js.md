@@ -1,6 +1,6 @@
 # JS
 
-// Last modified: 2019/08/03 08:57:59
+// Last modified: 2019/08/30 10:04:15
 
 Files and best practices for a JavaScript project.
 
@@ -14,4 +14,6 @@ Docs: https://code.visualstudio.com/docs/languages/jsconfig
 
 ## Links
 
-useful JavaScript snippets: https://github.com/30-seconds/30-seconds-of-code
+History and overview of additions to JS [since ES5](https://www.freecodecamp.org/news/es5-to-esnext-heres-every-feature-added-to-javascript-since-2015-d0c255e13c6e/)
+
+Useful JavaScript snippets: [30 seconds of code](https://github.com/30-seconds/30-seconds-of-code)
