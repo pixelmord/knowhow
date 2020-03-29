@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "main": "index.js",
   "private": true,
-  "author": "Andreas Sahle <andreas.sahle@gmail.com>",
+  "author": "Andreas Adam <andreas.sahle@gmail.com>",
   "workspaces": [
     "./reactypescript",
     "./typescript",
     "./js"
   ],
   "scripts": {
-    "serve": "docsify serve ./docs"
+    "serve": "docsify serve ./docs",
+    "sem": "semantic-release"
   },
   "license": "MIT",
   "prettier": {
@@ -24,5 +25,31 @@
     "docsify": "^4.9.4",
     "docsify-cli": "^4.3.0",
     "live-server": "^1.2.1"
+  },
+  "release": {
+    "branch": "master",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md"
+          ],
+          "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^5.0.0",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "semantic-release": "^17.0.4"
   }
 }
