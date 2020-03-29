@@ -1,6 +1,6 @@
 # Regular Expressions
 
-### Web regex
+## Web regex
 
 ```javascript
 const values = {
