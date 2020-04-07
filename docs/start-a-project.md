@@ -1,6 +1,6 @@
 # Start a new project
 
-// Last modified: 2020/03/24 14:35:26
+// Last modified: 2020/04/03 09:24:50
 
 ## Steps
 
@@ -8,9 +8,9 @@
 
 ### copy common files
 
-1.  editorconfig
-2.  prettier.config
-3.  LICENSE file
+1. editorconfig
+2. prettier.config
+3. LICENSE file
 
 ### Install and configure semantic release
 
