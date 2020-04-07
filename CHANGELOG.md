@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/pixelmord/knowhow/compare/v1.0.0...v1.1.0) (2020-04-07)
+
+
+### Features
+
+* add full install command for eslint ([5c5e64d](https://github.com/pixelmord/knowhow/commit/5c5e64df24b2218b131fe7de09829b2fb6fe4fa8))
+* **react:** start typescript doc ([be2aa1c](https://github.com/pixelmord/knowhow/commit/be2aa1c70d5eb2df980fa5229abb6b62c7d0fc40))
+
 # 1.0.0 (2020-03-29)
 
 
