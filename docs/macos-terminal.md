@@ -1,0 +1,32 @@
+# MacOS
+
+// Last modified: 2019/07/23 13:30:55
+
+## Clear package manager caches
+
+```bash
+yarn cache clean
+brew cleanup
+# also remove latest versions of formulae
+# brew  cleanup -s
+# remove everything in homebrew cache (also downloads for installed versions)
+# rm -rf $(brew --cache)
+```
+
+## SSH
+
+```bash
+# create key
+ssh-keygen -t rsa -b 4096 -C "andreas.sahle@gmail.com"
+# copy (default) public key to clipboard
+pbcopy < ~/.ssh/id_rsa.pub
+# add key to agent
+ssh-add ~/.ssh/id_rsa
+# list keys in agent
+ssh-add -l
+```
+
+```bash
+# add key to remote server
+ssh-copy-id remote_username@server_ip_address
+```
