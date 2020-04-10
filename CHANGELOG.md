@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/pixelmord/knowhow/compare/v1.1.0...v1.2.0) (2020-04-10)
+
+
+### Features
+
+* csv in cli ([55772ce](https://github.com/pixelmord/knowhow/commit/55772ceb2a23862c2b42662ff0c1d55ed71277c8))
+
 # [1.1.0](https://github.com/pixelmord/knowhow/compare/v1.0.0...v1.1.0) (2020-04-07)
 
 
