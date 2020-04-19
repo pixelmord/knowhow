@@ -1,6 +1,10 @@
 # React Typescript
 
-// Last modified: 2020/04/03 09:25:14
+// Last modified: 2020/04/19 07:59:58
+
+## Typescript
+
+[cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/blob/master/ADVANCED.md)
 
 ## Setup
 
