@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/pixelmord/knowhow/compare/v1.2.0...v1.3.0) (2020-04-22)
+
+
+### Features
+
+* add cheatsheet link ([0074481](https://github.com/pixelmord/knowhow/commit/0074481dfcb4b93bd456c320edf7b6a8cc6a8435))
+
 # [1.2.0](https://github.com/pixelmord/knowhow/compare/v1.1.0...v1.2.0) (2020-04-10)
 
 
