@@ -1,6 +1,6 @@
 # Start a new project
 
-// Last modified: 2020/04/22 08:10:52
+// Last modified: 2020/05/16 16:42:31
 
 ## Steps
 
@@ -45,7 +45,19 @@ yarn add --dev semantic-release @semantic-release/commit-analyzer @semantic-rele
 
 #### Add a Github Action
 
-See [release.yml](../.github/workflows/release.yml)
+See [ci.yml](../.github/workflows/ci.yml)
+
+#### Add a npm script to execute semantic release
+
+Amend package.json:
+
+```json
+{
+  "scripts": {
+    "sematic-release": "semantic-release"
+  }
+}
+```
 
 ### Setup commit linting
 

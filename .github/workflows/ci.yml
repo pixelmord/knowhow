@@ -1,4 +1,4 @@
-name: Release
+name: CI
 on:
   push:
     branches:
@@ -29,5 +29,4 @@ jobs:
       - name: Do Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: yarn sem # will run `sem` command
-
+        run: yarn semantic-release
