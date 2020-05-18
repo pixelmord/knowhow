@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const path = require('path');
 
 module.exports = {
@@ -17,8 +18,8 @@ module.exports = {
     ecmaFeatures: {
       jsx: true, // Allows for the parsing of JSX
     },
-    // project: './src/app/tsconfig.json',
-    // tsconfigRootDir: path.resolve(__dirname),
+    project: './tsconfig.json',
+    tsconfigRootDir: path.resolve(__dirname),
   },
   rules: {
     "prettier/prettier": "error",
