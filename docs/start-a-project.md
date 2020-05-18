@@ -1,6 +1,6 @@
 # Start a new project
 
-// Last modified: 2020/05/16 16:42:31
+// Last modified: 2020/05/18 10:37:14
 
 ## Steps
 
@@ -24,12 +24,18 @@
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/changelog",
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
       "@semantic-release/github",
       [
         "@semantic-release/git",
         {
-          "assets": ["CHANGELOG.md"],
-          "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+          "assets": ["CHANGELOG.md", "package.json"],
+          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
         }
       ]
     ]
@@ -43,7 +49,7 @@
 yarn add --dev semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/changelog @semantic-release/github @semantic-release/git
 ```
 
-#### Add a Github Action
+#### Add a Github Action to release via CI
 
 See [ci.yml](../.github/workflows/ci.yml)
 
