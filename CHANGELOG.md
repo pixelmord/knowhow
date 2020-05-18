@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/pixelmord/knowhow/compare/v1.3.0...v1.4.0) (2020-05-18)
+
+
+### Features
+
+* semantic release to bump package version ([d6a3fe0](https://github.com/pixelmord/knowhow/commit/d6a3fe02d1a411ca7f76400259b3cf370a92b177))
+
 # [1.3.0](https://github.com/pixelmord/knowhow/compare/v1.2.0...v1.3.0) (2020-04-22)
 
 
