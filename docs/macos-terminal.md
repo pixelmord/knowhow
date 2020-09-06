@@ -1,6 +1,6 @@
 # MacOS
 
-// Last modified: 2019/07/23 13:30:55
+// Last modified: 2020/09/02 16:01:29
 
 ## Clear package manager caches
 
@@ -29,4 +29,10 @@ ssh-add -l
 ```bash
 # add key to remote server
 ssh-copy-id remote_username@server_ip_address
+```
+
+## Secret
+
+```bash
+openssl rand -base64 32 | colrm 17
 ```
